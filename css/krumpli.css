@@ -1,0 +1,125 @@
+.navbar-brand {
+
+    color: black;
+    text-transform: none;
+
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+.navbar {
+
+    background-color: bisque;
+
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(0 128 255 / 0.5);
+    background-image: url('../img/krumpli.png');
+    background-repeat: no-repeat;
+    /* Ne ismétlődjön a háttérkép */
+    background-size: cover;
+    /* Kifeszítve a tárolóelemre (kitölti a teljes teret) */
+    height: 500px;
+    /* Pontosan 500px magasság */
+    background-position: center;
+    /* Opcionális: középre igazítja a képet, ha méreteződik */
+}
+
+#h1header {
+    font-family: "Lucida", "Lucida Sans", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+    text-shadow: 3px 3px 5px black;
+    /* Betűk árnyéka (X, Y, elmosás, szín) */
+}
+
+
+
+h1 {
+    color: brown;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img {
+    height: 100px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.kep {
+    width: 100px;
+}
+
+.recept {
+    height: 200px;
+
+    width: 300px;
+    border-radius: 50px 20px 50px 20px;
+
+
+
+
+}
+
+footer {
+    color: white;
+    padding-top: 50px;
+
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* 18. pont alapján */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pfooter {
+    
+    text-align: center;
+
+}
+
+
+
+footer{
+
+    height: 200px;
+    background-color: #000000;
+    font-size: 30px;
+
+
+}
+
+
+/* A :nth-of-type(n) pszeudo-osztály mindig a közös szülőn (itt az egyes div-eken) belül számolja az azonos típusú elemeket, egymástól függetlenül. */
+main p:nth-of-type(2) {
+    background-color: aquamarine;
+}
+
+
+/* 20.pont formázása */
+a:hover {
+    background-color: aquamarine;
+}
